@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <!-- 網頁Google中英文字體 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <!-- 網頁標題 -->
+    <title>網頁樣板</title>
+  </head>
+  <body>
+    <!-- 頁首 header -->
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">LOGO</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="./index.html"
+                    >首頁</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./newInformation.html">最新消息</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    電影類型
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">韓劇</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">陸劇</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">日劇</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact_us.html">聯絡我們</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active">VUE作品</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2 search_input"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  搜尋
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- 內容 -->
+    <div class="movie_title">
+      <div class="container">
+        <h1 class="txt1">看電影就是來這就對了!!!每周日更新動態</h1>
+
+        <!-- 電影類型-韓劇 -->
+        <div class="movie_type">
+          <div class="movie_information">
+            <p><span>韓劇</span></p>
+          </div>
+          <div class="under_border"></div>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col drama sizing">
+              <div class="card h-100">
+                <img
+                  src="img/koren/1.png"
+                  class="card-img-top movie_img"
+                  alt="..."
+                />
+                <span class="icon-region">韓</span>
+                <div class="card-body">
+                  <h5 class="card-title">浪漫醫生金師傅3</h5>
+                  <p class="card-text">
+                    講述在地方城市醫院石壇醫院（中譯：石垣醫院）工作的天才醫生金師傅，與熱情的年輕醫生之間的故事。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col drama sizing">
+              <div class="card h-100">
+                <img
+                  src="img/koren/2.png"
+                  class="card-img-top movie_img"
+                  alt="..."
+                />
+                <span class="icon-region">韓</span>
+                <div class="card-body">
+                  <h5 class="card-title">今生也請多指教</h5>
+                  <p class="card-text">
+                    講述帶著前世記憶重生的「尹珠媛」在第十八次人生遇到了真愛「文瑞夏」，但因車禍導致珠媛死亡，以「潘知音」開啟了第十九次的人生和瑞夏相遇之後發生的愛情故事。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col drama sizing">
+              <div class="card h-100">
+                <img
+                  src="img/koren/3.png"
+                  class="card-img-top movie_img"
+                  alt="..."
+                />
+                <span class="icon-region">韓</span>
+                <div class="card-body">
+                  <h5 class="card-title">歡迎來到王之國</h5>
+                  <p class="card-text">
+                    講述無法忍受虛偽笑容的財閥繼承人具元（李俊昊
+                    飾），與因為職業關係即使不想笑也要一直保持開朗笑容的小職員千莎朗（林允兒
+                    飾）相遇后，變得可以一起真正開懷大笑的浪漫愛情喜劇。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col drama sizing">
+              <div class="card h-100">
+                <img
+                  src="img/koren/4.png"
+                  class="card-img-top movie_img"
+                  alt="..."
+                />
+                <span class="icon-region">韓</span>
+                <div class="card-body">
+                  <h5 class="card-title">偶然遇見的你</h5>
+                  <p class="card-text">
+                    講述在1987年被囚禁的兩名男女之間奇怪而美麗的時間旅行，一個尋找過去連環殺人真相的男人和一個想要阻止爸爸媽媽結婚的女人相互意識到目標連接在一起的故事。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col drama sizing">
+              <div class="card h-100">
+                <img
+                  src="img/koren/5.png"
+                  class="card-img-top movie_img"
+                  alt="..."
+                />
+                <span class="icon-region">韓</span>
+                <div class="card-body">
+                  <h5 class="card-title">真的出現了</h5>
+                  <p class="card-text">
+                    講述將肚子里寶寶取名為「真的」的未婚准媽媽與一名不婚主義者簽下「假契約」后在懷孕、生產、育兒過程中逐漸團結並互相愛戀的成長故事。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col drama sizing">
+              <div class="card h-100">
+                <img
+                  src="img/koren/6.png"
+                  class="card-img-top movie_img"
+                  alt="..."
+                />
+                <span class="icon-region">韓</span>
+                <div class="card-body">
+                  <h5 class="card-title">有院子的家</h5>
+                  <p class="card-text">
+                    講述在擁有醫生丈夫、聰明帥氣的兒子的富足家庭里享受著讓人艷羨的完美幸福生活的家庭主婦，通過她的懷疑的覺悟，顛覆了「有院子的幸福的家」的價值幻想。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 電影類型-陸劇 -->
+        <div class="movie_type">
+          <div class="movie_information">
+            <p><span>陸劇</span></p>
+          </div>
+          <div class="under_border"></div>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col drama sizing">
+              <div class="card h-100">
+                <img
+                  src="img/china/1.png"
+                  class="card-img-top movie_img"
+                  alt="..."
+                />
+                <span class="icon-region">陸</span>
+                <div class="card-body">
+                  <h5 class="card-title">偷偷藏不住</h5>
+                  <p class="card-text">
+                    由趙露思、陳哲遠領銜主演，馬伯騫主演，曾黎、邱心志特邀主演，管梓凈、王洋、張皓倫特別出演的青春校園偶像劇。根據竹已的同名小說改編，講述了段嘉許與桑稚之間青春甜蜜的愛情故事。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col drama sizing">
+              <div class="card h-100">
+                <img
+                  src="img/china/2.png"
+                  class="card-img-top movie_img"
+                  alt="..."
+                />
+                <span class="icon-region">陸</span>
+                <div class="card-body">
+                  <h5 class="card-title">當我飛奔向你</h5>
+                  <p class="card-text">
+                    由貓的樹執導，周翊然、張淼怡主演的電視劇。根據竹已的校園青春文學《她病得不輕》改編，講述了樂天女孩蘇在在在高中開學的第一天，看見一個在雨中漫步的「傻子」，就此蘇在在對他一見鍾情。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col drama sizing">
+              <div class="card h-100">
+                <img
+                  src="img/china/3.png"
+                  class="card-img-top movie_img"
+                  alt="..."
+                />
+                <span class="icon-region">陸</span>
+                <div class="card-body">
+                  <h5 class="card-title">長風渡</h5>
+                  <p class="card-text">
+                    由尹濤執導，白敬亭、宋軼領銜主演，劉學義特別主演，張昊唯特邀主演，張睿、趙子琪特別出演的古裝劇。根據墨書白的同名小說改編，講述了自小受盡磨礪的揚州布商之女柳玉茹與當地著名紈絝顧九思陰差陽錯結為夫妻，性格迥異的兩人在錯位婚姻里，從相互抵觸到相互扶持、相互治癒的暖心故事。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col drama sizing">
+              <div class="card h-100">
+                <img
+                  src="img/china/4.png"
+                  class="card-img-top movie_img"
+                  alt="..."
+                />
+                <span class="icon-region">陸</span>
+                <div class="card-body">
+                  <h5 class="card-title">照亮你</h5>
+                  <p class="card-text">
+                    由金沙、俞波執導，陳偉霆、章若楠領銜主演的當代都市劇。講述了十年前消防員靳時川在一次地震救援任務中救出女孩徐來，為安撫對方應下「十年之約」，十年後徐來成長為優秀的新聞記者，在市消防救援支隊組建搜救犬隊伍時，徐來以國際訓犬師身份成為隊里的搜救犬訓導員，與時任市消防救援特勤大隊站長兼搜救犬分隊隊長的靳時川成為搭檔，「如約」上演千層追愛、心機捕夫的浪漫愛情故事。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col drama sizing">
+              <div class="card h-100">
+                <img
+                  src="img/china/5.png"
+                  class="card-img-top movie_img"
+                  alt="..."
+                />
+                <span class="icon-region">陸</span>
+                <div class="card-body">
+                  <h5 class="card-title">花戎</h5>
+                  <p class="card-text">
+                    由黃俊文、陳國華、胡意涓執導，鞠婧禕、郭俊辰領銜主演的輕古風仙俠劇。根據林家成的人氣仙俠小說《誤長生》改編，講述了女主魏枝與男主炎越歷經坎坷、終破除「鳳凰涅槃將動蕩三界」的浩劫宿命，攜手改寫天道的壯麗仙俠故事。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col drama sizing">
+              <div class="card h-100">
+                <img
+                  src="img/china/6.png"
+                  class="card-img-top movie_img"
+                  alt="..."
+                />
+                <span class="icon-region">陸</span>
+                <div class="card-body">
+                  <h5 class="card-title">三分野</h5>
+                  <p class="card-text">
+                    由黃天仁執導，張彬彬、吳倩領銜主演的都市輕喜甜野劇。改編自耳東兔子的同名小說，講述了兩位個性獨立，強大堅定的男女拼搏事業，攜手成長的勵志故事。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 電影類型-日劇 -->
+        <div class="movie_type">
+          <div class="movie_information">
+            <p><span>日劇</span></p>
+          </div>
+          <div class="under_border"></div>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col drama sizing">
+              <div class="card h-100">
+                <img
+                  src="img/japan/1.png"
+                  class="card-img-top movie_img"
+                  alt="..."
+                />
+                <span class="icon-region">日</span>
+                <div class="card-body">
+                  <h5 class="card-title">獻給國王的無名指</h5>
+                  <p class="card-text">
+                    該劇改編自人氣漫畫，橋本環奈飾演在貧窮的大家庭長大，在婚禮會場工作的新人OL羽田綾華，對只看自己外表的男人感到厭煩的她突然被工作單位的社長求婚。向羽田求婚的社長新田東鄉由山田涼介飾演。
+                    為了保護最喜歡的家人而選擇結婚的「貧窮灰姑娘」羽田綾華（橋本環奈
+                    飾）和為了重建業績不佳的婚禮會場而選擇和不喜歡的女人結婚的「傲嬌公子」新田東鄉（山田涼介
+                    飾）將上演一部令人心動的愛情喜劇。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col drama sizing">
+              <div class="card h-100">
+                <img
+                  src="img/japan/2.png"
+                  class="card-img-top movie_img"
+                  alt="..."
+                />
+                <span class="icon-region">日</span>
+                <div class="card-body">
+                  <h5 class="card-title">即使你不和我做</h5>
+                  <p class="card-text">
+                    改編自春乃晴同名漫畫，32歲的OL吉野美智（奈緒
+                    飾）與丈夫陽一（永山瑛太
+                    飾）已經結婚第5年，但卻兩年沒有性生活。陽一是咖啡店的店長，雖然愛著妻子，但一到緊要關頭就會感到壓力。在漠然的不安中，他們的夫妻關係逐漸惡化。岩田剛典和田中美奈實飾演另一對夫婦。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col drama sizing">
+              <div class="card h-100">
+                <img
+                  src="img/japan/3.png"
+                  class="card-img-top movie_img"
+                  alt="..."
+                />
+                <span class="icon-region">日</span>
+                <div class="card-body">
+                  <h5 class="card-title">我的媳夫</h5>
+                  <p class="card-text">
+                    該劇改編自同名漫畫，講述總是能完美完成工作，深受同事愛戴，卻生活懶散的女子速見穗香，以某件事為契機，「娶」了公司後輩、擅長做家務的「家務能力最強男子」山本知博的愛情喜劇故事
+                    。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col drama sizing">
+              <div class="card h-100">
+                <img
+                  src="img/japan/4.png"
+                  class="card-img-top movie_img"
+                  alt="..."
+                />
+                <span class="icon-region">日</span>
+                <div class="card-body">
+                  <h5 class="card-title">LAST MAN-全盲搜查官</h5>
+                  <p class="card-text">
+                    福山雅治飾演從美國臨時來到日本FBI搜查官皆實廣見，他因過去的某個事故而失去了雙眼的視力，但能利用敏銳的分析力、嗅覺、觸覺來解決事件他是在FBI中被稱為LAST
+                    MAN的最後的王牌。大泉洋飾演被指派給皆實的警察廳人才交流企劃室室長護道心太朗。家中世世代代擔任警察廳長官的心太朗有著絕對的正義感，也有為了抓住犯人不擇手段的一面。這樣的二人組成搭檔，共同解決事件。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col drama sizing">
+              <div class="card h-100">
+                <img
+                  src="img/japan/5.png"
+                  class="card-img-top movie_img"
+                  alt="..."
+                />
+                <span class="icon-region">日</span>
+                <div class="card-body">
+                  <h5 class="card-title">4月的東京…</h5>
+                  <p class="card-text">
+                    這是劇淋浴架與 KADOKAWA 的 BL 劇廠牌「Tunk」在 2023
+                    年的首次合作項目。這部作品描繪了十年前因一件事而撕裂的兩個人，儘管他們是彼此的初戀和初體驗，直到他們重新聯繫起來。時隔10年
+                    從美國歸來的瀧澤和真，以新員工的身份加入了一家廣告公司，並與初中時期的好友石原蓮重逢。Kazuma對意想不到的發展感到興奮，
+                    但Ren出於某種原因試圖避免談論他的中學時代，態度生硬。與此同時，一天晚上，兩人再次發生關係
+                    。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col drama sizing">
+              <div class="card h-100">
+                <img
+                  src="img/japan/6.png"
+                  class="card-img-top movie_img"
+                  alt="..."
+                />
+                <span class="icon-region">日</span>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    絕對不可能 ～偵探・上水流涼子的解析～
+                  </h5>
+                  <p class="card-text">
+                    該劇改編自推理作家柚月裕子的同名小說，天海佑希飾演的是頭腦清晰的變裝達人、原為律師的美女偵探上水流涼子。松下洸平飾演IQ140卻不擅長與女性相處的搭檔貴山伸彥。本作講述二人組成的個性組合用「不可能」的手段將歹徒們葬送的故事。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 頁尾 footer-->
+    <footer class="container-fluid foot_txt">
+      &copy; 2023 看電影就是FUN平台,本網站僅供作品展示,請勿商業用途
+    </footer>
+    <!-- JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
