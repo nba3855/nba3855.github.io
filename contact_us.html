@@ -23,7 +23,7 @@
     />
     <!-- CSS -->
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/template.css" />
+    <link rel="stylesheet" href="css/contact_us.css" />
     <!-- <link rel="stylesheet" href="css/style.css" /> -->
     <!-- 網頁標題 -->
     <title>網頁樣板</title>
@@ -31,7 +31,7 @@
   <body>
     <!-- 頁首 header -->
     <header>
-      <div class="container">
+      <div class="container-fluid">
         <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">LOGO</a>
@@ -108,7 +108,34 @@
     <!-- 內容 -->
     <div class="movie_title">
       <div class="container">
-        <h1 class="txt1">看電影就是來這就對了!!!每周日更新動態</h1>
+        <h1 class="txt1">如有任何意見，請於以下留言區留言!!</h1>
+        <div class="subcontent">
+          <form action="">
+            <div class="row g-3 mb-3">
+              <div class="col-md-10">
+                <label for="content_area" class="form-label movie_information"
+                  >留言區</label
+                >
+                <textarea
+                  class="form-control"
+                  name="content_are"
+                  id="content_area"
+                  placeholder="請輸入內容"
+                  rows="10"
+                  cols="30"
+                ></textarea>
+              </div>
+              <div class="col-md-12">
+                <button
+                  type="submit"
+                  class="btn btn-outline-primary bg-primary"
+                >
+                  送出
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
 

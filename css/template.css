@@ -2,6 +2,10 @@ nav{
     background-color: #47d4c6;
 }
 
+nav ul{
+    background-color: #47d4c6;
+}
+
 nav li{
 	    margin: 0 13px;
 }
